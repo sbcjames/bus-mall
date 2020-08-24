@@ -6,10 +6,22 @@ h1 {
   font-size: 8em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  color: 
 }
 
-.inventory {
-  padding: 5px;
-  display: inline;
+#images {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+img {
+  width: 20%;
+  margin-left: 100px;
+}
+
+#inventory {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 30px;
 }
